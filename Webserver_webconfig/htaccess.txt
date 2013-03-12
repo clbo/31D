@@ -1,0 +1,33 @@
+# Tilføj index side, eller sider
+DirectoryIndex forside.php 
+
+###### DIRECTORY LISTING #########
+#Show directory listings
+Options All +Indexes
+# Vis "fancy" directory listning (dato title osv)
+IndexOptions +FancyIndexing 
+
+
+##### ERRORS ######
+#Custom 400 errors
+ErrorDocument 400 http://www.clbphp.dk/oops.php?fejl=400
+
+#Custom 401 errors
+ErrorDocument 401 http://www.clbphp.dk/oops.php?fejl=401
+
+#Custom 403 errors
+ErrorDocument 403 http://www.clbphp.dk/oops.php?fejl=403
+
+#Custom 404 errors
+ErrorDocument 404 http://www.clbphp.dk/oops.php?fejl=404
+
+#Custom 500 errors
+ErrorDocument 500 http://www.clbphp.dk/oops.php?fejl=500
+
+#Block users by IP
+order allow,deny
+#deny from 188.120.81.57
+allow from all
+
+#viderestille fil
+Redirect /minebilleder/ http://clbphp.dk/myPictures/
