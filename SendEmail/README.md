@@ -1,4 +1,6 @@
-31D
+Send Email
 ===
 
-Kode gennemgået i undervisningen for hold 31D på RTS WI HF
+Email med basic funktionaliteter.
+Gennemgået ved tavlen i Praktik 1 i forbindelse med HIFI opgaven.
+Mandag d. 15/4-2013
