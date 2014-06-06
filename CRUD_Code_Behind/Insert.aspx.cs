@@ -12,7 +12,7 @@ public partial class Insert : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        // comment
     }
     protected void Button_insert_Click(object sender, EventArgs e)
     {
