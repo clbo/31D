@@ -12,6 +12,7 @@ public partial class Delete : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        //TEST FROM KEA
         // opret forbindelsen til database
         SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["DatabaseConnectionString"].ToString());
         // opret et SqlCommand object
